@@ -1,0 +1,23 @@
+{
+  "name": "latest-song",
+  "version": "1.0.0",
+  "description": "",
+  "license": "GNU General Public License v3.0",
+  "author": "Marcos Lima <skvggor.dev>",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.1"
+  },
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "puppeteer": "^24.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/puppeteer": "^5.4.7",
+    "ts-node": "^10.9.2"
+  }
+}

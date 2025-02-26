@@ -1,0 +1,27 @@
+{
+  "name": "image-diff",
+  "version": "1.0.0",
+  "description": "",
+  "license": "GNU General Public License v3.0",
+  "author": "Marcos Lima <skvggor.dev>",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.1"
+  },
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^24.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/pixelmatch": "^5.2.6",
+    "@types/pngjs": "^6.0.5",
+    "@types/puppeteer": "^5.4.7",
+    "ts-node": "^10.9.2"
+  }
+}
